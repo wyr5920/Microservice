@@ -13,11 +13,16 @@
     <artifactId>login</artifactId>
 
     <dependencies>
+
         <dependency>
             <groupId>com.entity</groupId>
             <artifactId>commonEntity</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.common</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

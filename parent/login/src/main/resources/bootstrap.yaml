@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: service-login
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        extension-configs:
+          - dataId: common-Microservice.yaml
+            group: DEFAULT_GROUP1
+            refresh: true
