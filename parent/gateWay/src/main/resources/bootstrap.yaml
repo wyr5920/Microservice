@@ -1,0 +1,24 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: gateWay-server
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        extension-configs[0]:
+          dataId: common-Microservice.yaml
+          group: DEFAULT_GROUP1
+          refresh: true
+        extension-configs[1]:
+          dataId: gateWay-server-dev.yaml
+          group: DEFAULT_GROUP
+          refresh: true
+  profiles:
+    active: dev
