@@ -26,6 +26,7 @@
         <module>common</module>
         <module>user</module>
         <module>gateWay</module>
+        <module>Zipkin</module>
     </modules>
     <!--版本配置项目配置-->
     <properties>

@@ -1,0 +1,9 @@
+server:
+  port: 8084
+management:
+  metrics:
+    web:
+      server:
+        request:
+          autotime:
+            enabled: true
