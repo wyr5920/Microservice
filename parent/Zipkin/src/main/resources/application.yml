@@ -6,4 +6,4 @@ management:
       server:
         request:
           autotime:
-            enabled: true
+            enabled: false

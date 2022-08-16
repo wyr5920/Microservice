@@ -13,8 +13,8 @@ spring:
         server-addr: 127.0.0.1:8848
         file-extension: yaml
         extension-configs[0]:
-          dataId: common-Microservice.yaml
-          group: DEFAULT_GROUP1
+          dataId: common-configure.yaml
+          group: DEFAULT_GROUP
           refresh: true
   profiles:
     active: dev
